@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: 400;
+	background-color: #454545;
+}
+
+.container {
+	padding: 2.5rem;
+}
+
+#codeField {
+	font: inherit;
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 7px;
+	outline: none;
+	background-color: #676767;
+	color: #33ee44;
+}
+
+#results {
+	margin-top: 2rem;
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 7px;
+	background-color: #676767;
+	color: #33ee44;
+	min-height: 30rem;
+	overflow-y: auto;
+}
